@@ -70,7 +70,7 @@ export default {
           sm: "4px",
         },
         fontFamily: {
-          'heading': ['Playfair Display', 'serif'],
+          'heading': ['Lucida Handwriting', 'serif'],
           'body': ['Inter', 'sans-serif'],
           'caption': ['Source Sans Pro', 'sans-serif'],
           'mono': ['JetBrains Mono', 'monospace'],

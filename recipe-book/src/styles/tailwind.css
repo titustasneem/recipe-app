@@ -10,35 +10,35 @@
 @layer base {
   :root {
     /* Core Colors */
-    --color-background: #FEFCFB; /* off-white */
-    --color-foreground: #2D2A26; /* warm-dark-brown */
-    --color-border: rgba(107, 101, 96, 0.12); /* warm-gray-12 */
-    --color-input: #F9F6F4; /* warm-neutral */
-    --color-ring: #E8B4B8; /* soft-rose */
+    --color-background: #c6acc8; /* off-white */
+    --color-foreground: #400249; /* warm-dark-brown */
+    --color-border: #400249; /* warm-gray-12 */
+    --color-input: #f5e9f8; /* warm-neutral */
+    --color-ring: #400249; /* soft-rose */
     
     /* Card Colors */
-    --color-card: #F9F6F4; /* warm-neutral */
-    --color-card-foreground: #2D2A26; /* warm-dark-brown */
+    --color-card: #ffffff; /* warm-neutral */
+    --color-card-foreground: #400249; /* warm-dark-brown */
     
     /* Popover Colors */
-    --color-popover: #FEFCFB; /* off-white */
+    --color-popover: #fbfefd; /* off-white */
     --color-popover-foreground: #2D2A26; /* warm-dark-brown */
     
     /* Muted Colors */
     --color-muted: #F9F6F4; /* warm-neutral */
-    --color-muted-foreground: #6B6560; /* warm-gray */
+    --color-muted-foreground: #5d114d; /* warm-gray */
     
     /* Primary Colors */
-    --color-primary: #E8B4B8; /* soft-rose */
-    --color-primary-foreground: #2D2A26; /* warm-dark-brown */
+    --color-primary: #530750; /* soft-rose */
+    --color-primary-foreground: #ffffff; /* warm-dark-brown */
     
     /* Secondary Colors */
     --color-secondary: #A8C09A; /* sage-green */
     --color-secondary-foreground: #2D2A26; /* warm-dark-brown */
     
     /* Accent Colors */
-    --color-accent: #F4D1AE; /* warm-cream */
-    --color-accent-foreground: #2D2A26; /* warm-dark-brown */
+    --color-accent: #39023f; /* warm-cream */
+    --color-accent-foreground: #ffffff; /* warm-dark-brown */
     
     /* Success Colors */
     --color-success: #7BA05B; /* muted-green */

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core Colors */
+    --color-background: #FEFCFB; /* off-white */
+    --color-foreground: #2D2A26; /* warm-dark-brown */
+    --color-border: rgba(107, 101, 96, 0.12); /* warm-gray-12 */
+    --color-input: #F9F6F4; /* warm-neutral */
+    --color-ring: #E8B4B8; /* soft-rose */
+    
+    /* Card Colors */
+    --color-card: #F9F6F4; /* warm-neutral */
+    --color-card-foreground: #2D2A26; /* warm-dark-brown */
+    
+    /* Popover Colors */
+    --color-popover: #FEFCFB; /* off-white */
+    --color-popover-foreground: #2D2A26; /* warm-dark-brown */
+    
+    /* Muted Colors */
+    --color-muted: #F9F6F4; /* warm-neutral */
+    --color-muted-foreground: #6B6560; /* warm-gray */
+    
+    /* Primary Colors */
+    --color-primary: #E8B4B8; /* soft-rose */
+    --color-primary-foreground: #2D2A26; /* warm-dark-brown */
+    
+    /* Secondary Colors */
+    --color-secondary: #A8C09A; /* sage-green */
+    --color-secondary-foreground: #2D2A26; /* warm-dark-brown */
+    
+    /* Accent Colors */
+    --color-accent: #F4D1AE; /* warm-cream */
+    --color-accent-foreground: #2D2A26; /* warm-dark-brown */
+    
+    /* Success Colors */
+    --color-success: #7BA05B; /* muted-green */
+    --color-success-foreground: #FEFCFB; /* off-white */
+    
+    /* Warning Colors */
+    --color-warning: #D4A574; /* warm-amber */
+    --color-warning-foreground: #2D2A26; /* warm-dark-brown */
+    
+    /* Error Colors */
+    --color-error: #C08B8B; /* soft-coral */
+    --color-error-foreground: #FEFCFB; /* off-white */
+    
+    /* Destructive Colors */
+    --color-destructive: #C08B8B; /* soft-coral */
+    --color-destructive-foreground: #FEFCFB; /* off-white */
+  }
+
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .shadow-soft {
+    box-shadow: 0 2px 4px rgba(45, 42, 38, 0.08);
+  }
+  
+  .shadow-soft-md {
+    box-shadow: 0 4px 8px rgba(45, 42, 38, 0.08);
+  }
+  
+  .shadow-soft-lg {
+    box-shadow: 0 8px 16px rgba(45, 42, 38, 0.08);
+  }
+}
